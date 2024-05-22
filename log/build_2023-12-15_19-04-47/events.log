@@ -1,0 +1,125 @@
+[0.000000] (-) TimerEvent: {}
+[0.000733] (autobot) JobQueued: {'identifier': 'autobot', 'dependencies': OrderedDict()}
+[0.000871] (autobot) JobStarted: {'identifier': 'autobot'}
+[0.099051] (-) TimerEvent: {}
+[0.163483] (autobot) JobProgress: {'identifier': 'autobot', 'progress': 'cmake'}
+[0.164269] (autobot) Command: {'cmd': ['/usr/bin/cmake', '/home/tarun_56/pc_ws/src/autobot', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/tarun_56/pc_ws/install/autobot'], 'cwd': '/home/tarun_56/pc_ws/build/autobot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tarun_56'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tarun_56'), ('OLDPWD', '/home/tarun_56/pc_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1570'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tarun_56/pc_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tarun_56'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tarun_56'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tarun56-virtual-machine:@/tmp/.ICE-unix/1206,unix/tarun56-virtual-machine:/tmp/.ICE-unix/1206'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0745f29b_b180_4394_8906_c0b23d9b8148'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z680F2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tarun_56/pc_ws/install/autobot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tarun_56/pc_ws/build/autobot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tarun_56/pc_ws/install/autobot:/opt/ros/humble')]), 'shell': False}
+[0.200236] (-) TimerEvent: {}
+[0.301423] (-) TimerEvent: {}
+[0.333132] (autobot) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.401757] (-) TimerEvent: {}
+[0.487401] (autobot) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.502086] (-) TimerEvent: {}
+[0.504830] (autobot) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.602445] (-) TimerEvent: {}
+[0.701589] (autobot) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.702842] (-) TimerEvent: {}
+[0.717750] (autobot) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.718536] (autobot) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.719240] (autobot) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.725909] (autobot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.803112] (-) TimerEvent: {}
+[0.903691] (-) TimerEvent: {}
+[0.945850] (autobot) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.961502] (autobot) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.962133] (autobot) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.962930] (autobot) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.975832] (autobot) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.004342] (-) TimerEvent: {}
+[1.105030] (-) TimerEvent: {}
+[1.205751] (-) TimerEvent: {}
+[1.306594] (-) TimerEvent: {}
+[1.335890] (autobot) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.408373] (-) TimerEvent: {}
+[1.470107] (autobot) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.508950] (-) TimerEvent: {}
+[1.548240] (autobot) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.609518] (-) TimerEvent: {}
+[1.710299] (-) TimerEvent: {}
+[1.748068] (autobot) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.776440] (autobot) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.780583] (autobot) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.783333] (autobot) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.797353] (autobot) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.801686] (autobot) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.810627] (-) TimerEvent: {}
+[1.811137] (autobot) StdoutLine: {'line': b'-- Generating done\n'}
+[1.814191] (autobot) StdoutLine: {'line': b'-- Build files have been written to: /home/tarun_56/pc_ws/build/autobot\n'}
+[1.824106] (autobot) CommandEnded: {'returncode': 0}
+[1.825614] (autobot) JobProgress: {'identifier': 'autobot', 'progress': 'build'}
+[1.828402] (autobot) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tarun_56/pc_ws/build/autobot', '--', '-j4', '-l4'], 'cwd': '/home/tarun_56/pc_ws/build/autobot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tarun_56'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tarun_56'), ('OLDPWD', '/home/tarun_56/pc_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1570'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tarun_56/pc_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tarun_56'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tarun_56'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tarun56-virtual-machine:@/tmp/.ICE-unix/1206,unix/tarun56-virtual-machine:/tmp/.ICE-unix/1206'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0745f29b_b180_4394_8906_c0b23d9b8148'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z680F2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tarun_56/pc_ws/install/autobot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tarun_56/pc_ws/build/autobot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tarun_56/pc_ws/install/autobot:/opt/ros/humble')]), 'shell': False}
+[1.911170] (-) TimerEvent: {}
+[1.933751] (autobot) CommandEnded: {'returncode': 0}
+[2.002777] (autobot) JobProgress: {'identifier': 'autobot', 'progress': 'install'}
+[2.011367] (-) TimerEvent: {}
+[2.025963] (autobot) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tarun_56/pc_ws/build/autobot'], 'cwd': '/home/tarun_56/pc_ws/build/autobot', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'tarun_56'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tarun_56'), ('OLDPWD', '/home/tarun_56/pc_ws/src'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('SYSTEMD_EXEC_PID', '1570'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tarun_56/pc_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tarun_56'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tarun_56'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tarun56-virtual-machine:@/tmp/.ICE-unix/1206,unix/tarun56-virtual-machine:/tmp/.ICE-unix/1206'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/0745f29b_b180_4394_8906_c0b23d9b8148'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.Z680F2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.143'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tarun_56/pc_ws/install/autobot:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tarun_56/pc_ws/build/autobot'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tarun_56/pc_ws/install/autobot:/opt/ros/humble')]), 'shell': False}
+[2.045173] (autobot) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.047106] (autobot) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[2.050247] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/ball_tracker_params_robot.yaml\n'}
+[2.074427] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/ball_tracker_params_sim.yaml\n'}
+[2.095872] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/drive_bot.rviz\n'}
+[2.112887] (-) TimerEvent: {}
+[2.118162] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/empty.yaml\n'}
+[2.141075] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/gaz_ros2_ctl_use_sim.yaml\n'}
+[2.164665] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/gazebo_params.yaml\n'}
+[2.187187] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/joystick.yaml\n'}
+[2.209303] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/main.rviz\n'}
+[2.213689] (-) TimerEvent: {}
+[2.230530] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/map.rviz\n'}
+[2.253787] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/mapper_params_online_async.yaml\n'}
+[2.275606] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/my_controllers.yaml\n'}
+[2.298254] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/nav2_params.yaml\n'}
+[2.315855] (-) TimerEvent: {}
+[2.320263] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/twist_mux.yaml\n'}
+[2.342772] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/view_bot.rviz\n'}
+[2.368121] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/description/camera.xacro\n'}
+[2.390232] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/description/depth_camera.xacro\n'}
+[2.412510] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/description/face.xacro\n'}
+[2.416012] (-) TimerEvent: {}
+[2.439877] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/description/gazebo_control.xacro\n'}
+[2.467426] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/description/inertial_macros.xacro\n'}
+[2.491390] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/description/lidar.xacro\n'}
+[2.513700] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/description/robot.urdf.xacro\n'}
+[2.516319] (-) TimerEvent: {}
+[2.535363] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/description/robot_core.xacro\n'}
+[2.558219] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/description/ros2_control.xacro\n'}
+[2.587629] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/ball_tracker.launch.py\n'}
+[2.609850] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/camera.launch.py\n'}
+[2.617259] (-) TimerEvent: {}
+[2.632796] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/joystick.launch.py\n'}
+[2.658275] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/launch_robot.launch.py\n'}
+[2.683487] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/launch_sim.launch.py\n'}
+[2.707474] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/localization_launch.py\n'}
+[2.717589] (-) TimerEvent: {}
+[2.729573] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/navigation_launch.py\n'}
+[2.751648] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/online_async_launch.py\n'}
+[2.777773] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/rplidar.launch.py\n'}
+[2.801019] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/rsp.launch.py\n'}
+[2.818264] (-) TimerEvent: {}
+[2.824284] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/worlds/empty.world\n'}
+[2.846093] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/worlds/obstacles.world\n'}
+[2.871747] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/ament_index/resource_index/package_run_dependencies/autobot\n'}
+[2.895566] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/ament_index/resource_index/parent_prefix_path/autobot\n'}
+[2.918584] (-) TimerEvent: {}
+[2.919087] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/environment/ament_prefix_path.sh\n'}
+[2.941221] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/environment/ament_prefix_path.dsv\n'}
+[2.966095] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/environment/path.sh\n'}
+[2.990700] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/environment/path.dsv\n'}
+[3.015321] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/local_setup.bash\n'}
+[3.018821] (-) TimerEvent: {}
+[3.039746] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/local_setup.sh\n'}
+[3.064184] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/local_setup.zsh\n'}
+[3.097261] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/local_setup.dsv\n'}
+[3.119191] (-) TimerEvent: {}
+[3.124798] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/package.dsv\n'}
+[3.151752] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/ament_index/resource_index/packages/autobot\n'}
+[3.175091] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/cmake/autobotConfig.cmake\n'}
+[3.198581] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/cmake/autobotConfig-version.cmake\n'}
+[3.219638] (autobot) StdoutLine: {'line': b'-- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/package.xml\n'}
+[3.220023] (-) TimerEvent: {}
+[3.249255] (autobot) CommandEnded: {'returncode': 0}
+[3.323952] (-) TimerEvent: {}
+[3.424498] (-) TimerEvent: {}
+[3.525646] (-) TimerEvent: {}
+[3.607172] (autobot) JobEnded: {'identifier': 'autobot', 'rc': 0}
+[3.609222] (-) EventReactorShutdown: {}

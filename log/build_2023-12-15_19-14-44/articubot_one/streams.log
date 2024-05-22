@@ -1,0 +1,3 @@
+[0.163s] Invoking command in '/home/tarun_56/pc_ws/build/autobot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tarun_56/pc_ws/src/autobot -DCMAKE_INSTALL_PREFIX=/home/tarun_56/pc_ws/install/autobot
+[0.187s] [0mCMake Error: The source "/home/tarun_56/pc_ws/src/autobot/CMakeLists.txt" does not match the source "/home/tarun_56/pc_ws/src/autobot/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m
+[0.192s] Invoked command in '/home/tarun_56/pc_ws/build/autobot' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/tarun_56/pc_ws/src/autobot -DCMAKE_INSTALL_PREFIX=/home/tarun_56/pc_ws/install/autobot

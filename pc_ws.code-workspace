@@ -1,0 +1,14 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../colcon_ws"
+		},
+		{
+			"path": "../amr_ws"
+		}
+	],
+	"settings": {}
+}
