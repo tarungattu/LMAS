@@ -24,7 +24,8 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'follow_waypoints_exe = follow_waypoints.follow_waypoints:main'
+            'follow_waypoints_exe = follow_waypoints.follow_waypoints:main',
+            'go_to_points_exe = follow_waypoints.go_to_points:main'
         ],
     },
 )

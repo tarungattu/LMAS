@@ -34,12 +34,31 @@ def parse_json(json_file):
         data = json.load(file)
         
     machine_sequences = []
+    ptime_sequences = []
     
+    new_machine_sequences = []
+    new_ptime_sequences = []
+    
+        
     for amr in data['amr_list']:
         machine_sequences.append(amr['machine_sequence'])
+        ptime_sequences.append(amr['ptime_sequence'])
         
-    amr1_sequence = machine_sequences[0]
-    return amr1_sequence
+    for machines, ptimes in zip(machine_sequences, ptime_sequences):
+        new_machines = []
+        new_ptimes = []
+        for machine, ptime in zip(machines, ptimes):
+            if ptime != 0:
+                new_machines.append(machine)
+                new_ptimes.append(ptime)
+        new_machine_sequences.append(new_machines)
+        new_ptime_sequences.append(new_ptimes)
+    
+    print(machine_sequences, ptime_sequences)
+    print(new_machine_sequences, new_ptime_sequences)
+    amr1_sequence = new_machine_sequences[0]
+    amr1_ptimes = new_ptime_sequences[0]
+    return amr1_sequence, amr1_ptimes
 
 class JSONFileHandler(FileSystemEventHandler):
     def __init__(self, file_path, callback):
@@ -98,7 +117,7 @@ def start_execution(data):
 
     inspection_route = []
     json_file_path = '/home/tarun_56/pc_ws/src/JobShopGA/amr_data.json'
-    sequence = parse_json(json_file_path)
+    sequence, ptimes = parse_json(json_file_path)
 
     for m in sequence:
         inspection_route.append(poses[str(m)])
@@ -119,28 +138,38 @@ def start_execution(data):
     while rclpy.ok():
 
         # Send our route
-        inspection_points = []
-        inspection_pose = PoseStamped()
-        inspection_pose.header.frame_id = 'map'
-        inspection_pose.header.stamp = navigator.get_clock().now().to_msg()
-        inspection_pose.pose.orientation.z = 1.0
-        inspection_pose.pose.orientation.w = 0.0
-        for pt in inspection_route:
-            inspection_pose.pose.position.x = pt[0]
-            inspection_pose.pose.position.y = pt[1]
-            inspection_points.append(deepcopy(inspection_pose))
-        nav_start = navigator.get_clock().now()
-        navigator.followWaypoints(inspection_points)
+        for i,m in zip(range(len(sequence)),sequence):
+            goal_pose = PoseStamped()
+            goal_pose.header.frame_id = 'map'
+            goal_pose.header.stamp = navigator.get_clock().now().to_msg()
+            goal_pose.pose.position.x = poses[str(m)][0]
+            goal_pose.pose.position.y = poses[str(m)][1]
+            goal_pose.pose.orientation.w = 1.0
+
+            navigator.goToPose(goal_pose)
+            if m >= 0:
+                print(f'Going to machine {m}')
+            elif m == -1:
+                print('Going to Loading dock for next job')
+            elif m == -2:
+                print('Going to unloading dock to drop completed job')
+            while not navigator.isTaskComplete():
+                time.sleep(1)
+            
+            print(f'job being process for time {ptimes[i]} seconds')
+            time.sleep(ptimes[i])
+
+
 
         # Do something during our route (e.x. AI to analyze stock information or upload to the cloud)
         # Simply print the current waypoint ID for the demonstration
-        i = 0
-        while not navigator.isTaskComplete():
-            i += 1
-            feedback = navigator.getFeedback()
-            if feedback and i % 5 == 0:
-                print('Executing current waypoint: ' +
-                      str(feedback.current_waypoint + 1) + '/' + str(len(inspection_points)))
+        # i = 0
+        # while not navigator.isTaskComplete():
+        #     i += 1
+        #     feedback = navigator.getFeedback()
+        #     if feedback and i % 5 == 0:
+        #         print('Executing current waypoint: ' +
+        #               str(feedback.current_waypoint + 1) + '/' + str(len(sequence)))
 
         result = navigator.getResult()
         if result == TaskResult.SUCCEEDED:
@@ -159,6 +188,7 @@ def start_execution(data):
 
 #
 def main():
+    print('go to points is being executed')
     json_file_path = '/home/tarun_56/pc_ws/src/JobShopGA/amr_data.json'
     wait_for_json_update(json_file_path, on_json_update)
 #

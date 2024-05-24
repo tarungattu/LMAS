@@ -11,6 +11,7 @@ setup.py
 config/follow_waypoints.yaml
 follow_waypoints/__init__.py
 follow_waypoints/follow_waypoints.py
+follow_waypoints/go_to_points.py
 follow_waypoints.egg-info/PKG-INFO
 follow_waypoints.egg-info/SOURCES.txt
 follow_waypoints.egg-info/dependency_links.txt
