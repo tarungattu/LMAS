@@ -19,35 +19,102 @@ from copy import deepcopy
 from geometry_msgs.msg import PoseStamped
 from rclpy.duration import Duration
 import rclpy
-
+#
+import json
+from watchdog.observers import Observer
+from watchdog.events import FileSystemEventHandler
+#
 from nav2_simple_commander.robot_navigator import BasicNavigator, TaskResult
 
 
-def main():
+
+#
+def parse_json(json_file):
+    with open(json_file, 'r') as file:
+        data = json.load(file)
+        
+    machine_sequences = []
+    
+    for amr in data['amr_list']:
+        machine_sequences.append(amr['machine_sequence'])
+        
+    amr1_sequence = machine_sequences[0]
+    return amr1_sequence
+
+class JSONFileHandler(FileSystemEventHandler):
+    def __init__(self, file_path, callback):
+        self.file_path = file_path
+        self.callback = callback
+        self.callback_called = False
+
+    def on_modified(self, event):
+        if event.src_path == self.file_path and not self.callback_called:
+            with open(self.file_path, 'r') as file:
+                data = json.load(file)
+            self.callback(data)
+            self.callback_called = True
+
+def wait_for_json_update(file_path, callback):
+    event_handler = JSONFileHandler(file_path, callback)
+    observer = Observer()
+    observer.schedule(event_handler, path=file_path, recursive=False)
+    observer.start()
+
+    try:
+        while not event_handler.callback_called:
+            time.sleep(1)
+    except KeyboardInterrupt:
+        observer.stop()
+    observer.stop()
+    observer.join()
+
+def on_json_update(data):
+    print("JSON file updated with new values:")
+    print(data)
+    # You can put the main execution code here or continue in another function
+
+    start_execution(data)  # Call the main execution function
+#
+def start_execution(data):
     rclpy.init()
 
     navigator = BasicNavigator()
 
-    # Inspection route, probably read in from a file for a real application
-    # from either a map or drive and repeat.
-    inspection_route = [ # simulation points
-        [5.0, 0.0],
-        [-5.0, -5.0],
-        [-5.0, 5.0]]
+    m1 = [-1.59, 4.42]
+    m2 = [-1.709, -3.71]
+    m3 = [4.23, 4.37]
+    m4 = [4.1, -3.67]
+    loading_dock = [-7.33, 0.480]
+    unloading_dock = [6.32, 0.42]
 
+    poses = {
+        '0': m1,
+        '1': m2,
+        '2': m3,
+        '3': m4,
+        '-1': loading_dock,
+        '-2': unloading_dock
+    }
+
+    inspection_route = []
+    json_file_path = '/home/tarun_56/pc_ws/src/JobShopGA/amr_data.json'
+    sequence = parse_json(json_file_path)
+
+    for m in sequence:
+        inspection_route.append(poses[str(m)])
 
     # Set our demo's initial pose
     # initial_pose = PoseStamped()
     # initial_pose.header.frame_id = 'map'
     # initial_pose.header.stamp = navigator.get_clock().now().to_msg()
-    # initial_pose.pose.position.x = 3.45
-    # initial_pose.pose.position.y = 2.15
+    # initial_pose.pose.position.x = -0.004
+    # initial_pose.pose.position.y = -0.041
     # initial_pose.pose.orientation.z = 1.0
     # initial_pose.pose.orientation.w = 0.0
     # navigator.setInitialPose(initial_pose)
 
     # Wait for navigation to fully activate
-    navigator.waitUntilNav2Active()
+    # navigator.waitUntilNav2Active()
 
     while rclpy.ok():
 
@@ -66,14 +133,14 @@ def main():
         navigator.followWaypoints(inspection_points)
 
         # Do something during our route (e.x. AI to analyze stock information or upload to the cloud)
-        # Simply print the current waypoint ID for the demonstation
+        # Simply print the current waypoint ID for the demonstration
         i = 0
         while not navigator.isTaskComplete():
-            i = i + 1
+            i += 1
             feedback = navigator.getFeedback()
             if feedback and i % 5 == 0:
                 print('Executing current waypoint: ' +
-                    str(feedback.current_waypoint + 1) + '/' + str(len(inspection_points)))
+                      str(feedback.current_waypoint + 1) + '/' + str(len(inspection_points)))
 
         result = navigator.getResult()
         if result == TaskResult.SUCCEEDED:
@@ -84,12 +151,16 @@ def main():
         elif result == TaskResult.FAILED:
             print('Inspection of shelving failed! Returning to start...')
 
-        # go back to start
+        # Uncomment to go back to start
         # initial_pose.header.stamp = navigator.get_clock().now().to_msg()
         # navigator.goToPose(initial_pose)
-        while not navigator.isTaskComplete:
-            pass
+        # while not navigator.isTaskComplete():
+        #     pass
 
-
+#
+def main():
+    json_file_path = '/home/tarun_56/pc_ws/src/JobShopGA/amr_data.json'
+    wait_for_json_update(json_file_path, on_json_update)
+#
 if __name__ == '__main__':
     main()
