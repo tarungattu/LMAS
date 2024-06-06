@@ -1,0 +1,388 @@
+[0.182s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.182s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x71b289454b20>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71b289454070>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71b289454070>>)
+[0.620s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.621s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.621s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/tarun_56/pc_ws'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.637s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.638s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.639s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.640s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.641s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.642s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extensions ['ignore', 'ignore_ament_install']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extension 'ignore'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extension 'ignore_ament_install'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extensions ['colcon_pkg']
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extension 'colcon_pkg'
+[0.643s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extensions ['colcon_meta']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extension 'colcon_meta'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extensions ['ros']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extension 'ros'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extensions ['cmake', 'python']
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extension 'cmake'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extension 'python'
+[0.644s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extensions ['python_setup_py']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA) by extension 'python_setup_py'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results) by extensions ['ignore', 'ignore_ament_install']
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results) by extension 'ignore'
+[0.645s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results) by extension 'ignore_ament_install'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results) by extensions ['colcon_pkg']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results) by extension 'colcon_pkg'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results) by extensions ['colcon_meta']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results) by extension 'colcon_meta'
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results) by extensions ['ros']
+[0.646s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results) by extension 'ros'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results) by extensions ['cmake', 'python']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results) by extension 'cmake'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results) by extension 'python'
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results) by extensions ['python_setup_py']
+[0.647s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results) by extension 'python_setup_py'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/ft06) by extensions ['ignore', 'ignore_ament_install']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/ft06) by extension 'ignore'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/ft06) by extension 'ignore_ament_install'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/ft06) by extensions ['colcon_pkg']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/ft06) by extension 'colcon_pkg'
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/ft06) by extensions ['colcon_meta']
+[0.648s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/ft06) by extension 'colcon_meta'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/ft06) by extensions ['ros']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/ft06) by extension 'ros'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/ft06) by extensions ['cmake', 'python']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/ft06) by extension 'cmake'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/ft06) by extension 'python'
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/ft06) by extensions ['python_setup_py']
+[0.649s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/ft06) by extension 'python_setup_py'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la01) by extensions ['ignore', 'ignore_ament_install']
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la01) by extension 'ignore'
+[0.650s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la01) by extension 'ignore_ament_install'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la01) by extensions ['colcon_pkg']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la01) by extension 'colcon_pkg'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la01) by extensions ['colcon_meta']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la01) by extension 'colcon_meta'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la01) by extensions ['ros']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la01) by extension 'ros'
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la01) by extensions ['cmake', 'python']
+[0.651s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la01) by extension 'cmake'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la01) by extension 'python'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la01) by extensions ['python_setup_py']
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la01) by extension 'python_setup_py'
+[0.652s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la02) by extensions ['ignore', 'ignore_ament_install']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la02) by extension 'ignore'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la02) by extension 'ignore_ament_install'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la02) by extensions ['colcon_pkg']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la02) by extension 'colcon_pkg'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la02) by extensions ['colcon_meta']
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la02) by extension 'colcon_meta'
+[0.653s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la02) by extensions ['ros']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la02) by extension 'ros'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la02) by extensions ['cmake', 'python']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la02) by extension 'cmake'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la02) by extension 'python'
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la02) by extensions ['python_setup_py']
+[0.654s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la02) by extension 'python_setup_py'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la03) by extensions ['ignore', 'ignore_ament_install']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la03) by extension 'ignore'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la03) by extension 'ignore_ament_install'
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la03) by extensions ['colcon_pkg']
+[0.655s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la03) by extension 'colcon_pkg'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la03) by extensions ['colcon_meta']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la03) by extension 'colcon_meta'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la03) by extensions ['ros']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la03) by extension 'ros'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la03) by extensions ['cmake', 'python']
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la03) by extension 'cmake'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la03) by extension 'python'
+[0.656s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la03) by extensions ['python_setup_py']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la03) by extension 'python_setup_py'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la04) by extensions ['ignore', 'ignore_ament_install']
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la04) by extension 'ignore'
+[0.657s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la04) by extension 'ignore_ament_install'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la04) by extensions ['colcon_pkg']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la04) by extension 'colcon_pkg'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la04) by extensions ['colcon_meta']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la04) by extension 'colcon_meta'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la04) by extensions ['ros']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la04) by extension 'ros'
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la04) by extensions ['cmake', 'python']
+[0.658s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la04) by extension 'cmake'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la04) by extension 'python'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la04) by extensions ['python_setup_py']
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la04) by extension 'python_setup_py'
+[0.659s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la05) by extensions ['ignore', 'ignore_ament_install']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la05) by extension 'ignore'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la05) by extension 'ignore_ament_install'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la05) by extensions ['colcon_pkg']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la05) by extension 'colcon_pkg'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la05) by extensions ['colcon_meta']
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la05) by extension 'colcon_meta'
+[0.660s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la05) by extensions ['ros']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la05) by extension 'ros'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la05) by extensions ['cmake', 'python']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la05) by extension 'cmake'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la05) by extension 'python'
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la05) by extensions ['python_setup_py']
+[0.661s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/Results/la05) by extension 'python_setup_py'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extension 'ignore'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extension 'ignore_ament_install'
+[0.662s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extensions ['colcon_pkg']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extension 'colcon_pkg'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extensions ['colcon_meta']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extension 'colcon_meta'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extensions ['ros']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extension 'ros'
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extensions ['cmake', 'python']
+[0.663s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extension 'cmake'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extension 'python'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extensions ['python_setup_py']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/JobShopGA/__pycache__) by extension 'python_setup_py'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/autobot) by extensions ['ignore', 'ignore_ament_install']
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/autobot) by extension 'ignore'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/autobot) by extension 'ignore_ament_install'
+[0.664s] Level 1:colcon.colcon_core.package_identification:_identify(src/autobot) by extensions ['colcon_pkg']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/autobot) by extension 'colcon_pkg'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/autobot) by extensions ['colcon_meta']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/autobot) by extension 'colcon_meta'
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/autobot) by extensions ['ros']
+[0.665s] Level 1:colcon.colcon_core.package_identification:_identify(src/autobot) by extension 'ros'
+[0.668s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autobot' with type 'ros.ament_cmake' and name 'autobot'
+[0.668s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extensions ['ignore', 'ignore_ament_install']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extension 'ignore'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extension 'ignore_ament_install'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extensions ['colcon_pkg']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extension 'colcon_pkg'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extensions ['colcon_meta']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extension 'colcon_meta'
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extensions ['ros']
+[0.669s] Level 1:colcon.colcon_core.package_identification:_identify(src/ball_tracker) by extension 'ros'
+[0.671s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ball_tracker' with type 'ros.ament_python' and name 'ball_tracker'
+[0.671s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extensions ['ignore', 'ignore_ament_install']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extension 'ignore'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extension 'ignore_ament_install'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extensions ['colcon_pkg']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extension 'colcon_pkg'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extensions ['colcon_meta']
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extension 'colcon_meta'
+[0.672s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extensions ['ros']
+[0.673s] Level 1:colcon.colcon_core.package_identification:_identify(src/follow_waypoints) by extension 'ros'
+[0.673s] DEBUG:colcon.colcon_core.package_identification:Package 'src/follow_waypoints' with type 'ros.ament_python' and name 'follow_waypoints'
+[0.674s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.674s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.674s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.674s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.674s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.714s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.719s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 354 installed packages in /opt/ros/humble
+[0.722s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'autobot' build argument 'cmake_args' from command line to 'None'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'autobot' build argument 'cmake_target' from command line to 'None'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'autobot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'autobot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'autobot' build argument 'cmake_clean_first' from command line to 'False'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'autobot' build argument 'cmake_force_configure' from command line to 'False'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'autobot' build argument 'ament_cmake_args' from command line to 'None'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'autobot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.775s] Level 5:colcon.colcon_core.verb:set package 'autobot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.775s] DEBUG:colcon.colcon_core.verb:Building package 'autobot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tarun_56/pc_ws/build/autobot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tarun_56/pc_ws/install/autobot', 'merge_install': False, 'path': '/home/tarun_56/pc_ws/src/autobot', 'symlink_install': True, 'test_result_base': None}
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_args' from command line to 'None'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_target' from command line to 'None'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_clean_cache' from command line to 'False'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_clean_first' from command line to 'False'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'cmake_force_configure' from command line to 'False'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'ament_cmake_args' from command line to 'None'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'catkin_cmake_args' from command line to 'None'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'ball_tracker' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.776s] DEBUG:colcon.colcon_core.verb:Building package 'ball_tracker' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tarun_56/pc_ws/build/ball_tracker', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tarun_56/pc_ws/install/ball_tracker', 'merge_install': False, 'path': '/home/tarun_56/pc_ws/src/ball_tracker', 'symlink_install': True, 'test_result_base': None}
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'cmake_args' from command line to 'None'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'cmake_target' from command line to 'None'
+[0.776s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'cmake_clean_cache' from command line to 'False'
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'cmake_clean_first' from command line to 'False'
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'cmake_force_configure' from command line to 'False'
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'ament_cmake_args' from command line to 'None'
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'catkin_cmake_args' from command line to 'None'
+[0.777s] Level 5:colcon.colcon_core.verb:set package 'follow_waypoints' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.777s] DEBUG:colcon.colcon_core.verb:Building package 'follow_waypoints' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/tarun_56/pc_ws/build/follow_waypoints', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/tarun_56/pc_ws/install/follow_waypoints', 'merge_install': False, 'path': '/home/tarun_56/pc_ws/src/follow_waypoints', 'symlink_install': True, 'test_result_base': None}
+[0.777s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.778s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.778s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/tarun_56/pc_ws/src/autobot' with build type 'ament_cmake'
+[0.779s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/tarun_56/pc_ws/src/autobot'
+[0.784s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.785s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.785s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.789s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tarun_56/pc_ws/src/ball_tracker' with build type 'ament_python'
+[0.789s] Level 1:colcon.colcon_core.shell:create_environment_hook('ball_tracker', 'ament_prefix_path')
+[0.790s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/pc_ws/install/ball_tracker/share/ball_tracker/hook/ament_prefix_path.ps1'
+[0.794s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tarun_56/pc_ws/install/ball_tracker/share/ball_tracker/hook/ament_prefix_path.dsv'
+[0.797s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/pc_ws/install/ball_tracker/share/ball_tracker/hook/ament_prefix_path.sh'
+[0.798s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.798s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.802s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/tarun_56/pc_ws/src/follow_waypoints' with build type 'ament_python'
+[0.802s] Level 1:colcon.colcon_core.shell:create_environment_hook('follow_waypoints', 'ament_prefix_path')
+[0.803s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/pc_ws/install/follow_waypoints/share/follow_waypoints/hook/ament_prefix_path.ps1'
+[0.805s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tarun_56/pc_ws/install/follow_waypoints/share/follow_waypoints/hook/ament_prefix_path.dsv'
+[0.806s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/pc_ws/install/follow_waypoints/share/follow_waypoints/hook/ament_prefix_path.sh'
+[0.808s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.808s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.823s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tarun_56/pc_ws/build/autobot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tarun_56/pc_ws/src/autobot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tarun_56/pc_ws/install/autobot
+[1.196s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tarun_56/pc_ws/src/ball_tracker'
+[1.196s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.197s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.527s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/tarun_56/pc_ws/src/follow_waypoints'
+[1.528s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.528s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.533s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tarun_56/pc_ws/build/autobot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/tarun_56/pc_ws/src/autobot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tarun_56/pc_ws/install/autobot
+[1.535s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tarun_56/pc_ws/build/autobot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tarun_56/pc_ws/build/autobot -- -j4 -l4
+[1.605s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tarun_56/pc_ws/build/autobot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tarun_56/pc_ws/build/autobot -- -j4 -l4
+[1.657s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tarun_56/pc_ws/build/autobot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tarun_56/pc_ws/build/autobot
+[1.747s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autobot)
+[1.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tarun_56/pc_ws/build/autobot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tarun_56/pc_ws/build/autobot
+[1.755s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/autobot' for CMake module files
+[1.756s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/autobot' for CMake config files
+[1.761s] Level 1:colcon.colcon_core.shell:create_environment_hook('autobot', 'cmake_prefix_path')
+[1.761s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/pc_ws/install/autobot/share/autobot/hook/cmake_prefix_path.ps1'
+[1.762s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tarun_56/pc_ws/install/autobot/share/autobot/hook/cmake_prefix_path.dsv'
+[1.763s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/pc_ws/install/autobot/share/autobot/hook/cmake_prefix_path.sh'
+[1.764s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/autobot/bin'
+[1.764s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/autobot/lib/pkgconfig/autobot.pc'
+[1.764s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/autobot/lib/python3.10/site-packages'
+[1.765s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/autobot/bin'
+[1.765s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/pc_ws/install/autobot/share/autobot/package.ps1'
+[1.766s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tarun_56/pc_ws/install/autobot/share/autobot/package.dsv'
+[1.767s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/pc_ws/install/autobot/share/autobot/package.sh'
+[1.768s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/pc_ws/install/autobot/share/autobot/package.bash'
+[1.769s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/pc_ws/install/autobot/share/autobot/package.zsh'
+[1.770s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tarun_56/pc_ws/install/autobot/share/colcon-core/packages/autobot)
+[1.808s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autobot)
+[1.808s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/autobot' for CMake module files
+[1.809s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/autobot' for CMake config files
+[1.810s] Level 1:colcon.colcon_core.shell:create_environment_hook('autobot', 'cmake_prefix_path')
+[1.810s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/pc_ws/install/autobot/share/autobot/hook/cmake_prefix_path.ps1'
+[1.811s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tarun_56/pc_ws/install/autobot/share/autobot/hook/cmake_prefix_path.dsv'
+[1.811s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/pc_ws/install/autobot/share/autobot/hook/cmake_prefix_path.sh'
+[1.812s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/autobot/bin'
+[1.812s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/autobot/lib/pkgconfig/autobot.pc'
+[1.813s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/autobot/lib/python3.10/site-packages'
+[1.813s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/autobot/bin'
+[1.813s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/pc_ws/install/autobot/share/autobot/package.ps1'
+[1.814s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tarun_56/pc_ws/install/autobot/share/autobot/package.dsv'
+[1.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/pc_ws/install/autobot/share/autobot/package.sh'
+[1.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/pc_ws/install/autobot/share/autobot/package.bash'
+[1.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/pc_ws/install/autobot/share/autobot/package.zsh'
+[1.817s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tarun_56/pc_ws/install/autobot/share/colcon-core/packages/autobot)
+[2.002s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tarun_56/pc_ws/install/ball_tracker/share/ament_index/resource_index/packages/ball_tracker
+[2.002s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tarun_56/pc_ws/install/ball_tracker/share/ball_tracker/package.xml
+[2.002s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tarun_56/pc_ws/install/ball_tracker/share/ball_tracker/launch/example_launch_include.launch.py
+[2.003s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tarun_56/pc_ws/install/ball_tracker/share/ball_tracker/launch/ball_tracker.launch.py
+[2.003s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tarun_56/pc_ws/install/ball_tracker/share/ball_tracker/config/ball_tracker_params_example.yaml
+[2.003s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tarun_56/pc_ws/install/ball_tracker/lib/ball_tracker/detect_ball
+[2.003s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tarun_56/pc_ws/install/ball_tracker/lib/ball_tracker/detect_ball_3d
+[2.003s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tarun_56/pc_ws/install/ball_tracker/lib/ball_tracker/detect_robot_exe
+[2.003s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tarun_56/pc_ws/install/ball_tracker/lib/ball_tracker/follow_ball
+[2.009s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tarun_56/pc_ws/build/ball_tracker': PYTHONPATH=/home/tarun_56/pc_ws/build/ball_tracker/prefix_override:/home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tarun_56/pc_ws/build/ball_tracker/build --no-deps symlink_data --force
+[2.010s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tarun_56/pc_ws/install/follow_waypoints/share/ament_index/resource_index/packages/follow_waypoints
+[2.010s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tarun_56/pc_ws/install/follow_waypoints/share/follow_waypoints/package.xml
+[2.011s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tarun_56/pc_ws/install/follow_waypoints/share/follow_waypoints/config/follow_waypoints.yaml
+[2.013s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tarun_56/pc_ws/install/follow_waypoints/lib/follow_waypoints/follow_waypoints_exe
+[2.013s] DEBUG:colcon.colcon_core.task.python.build:While undoing a previous installation files outside the Python library path are being ignored: /home/tarun_56/pc_ws/install/follow_waypoints/lib/follow_waypoints/go_to_points_exe
+[2.015s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/tarun_56/pc_ws/build/follow_waypoints': PYTHONPATH=/home/tarun_56/pc_ws/build/follow_waypoints/prefix_override:/home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tarun_56/pc_ws/build/follow_waypoints/build --no-deps symlink_data --force
+[2.549s] Level 1:colcon.colcon_core.shell:create_environment_hook('follow_waypoints', 'pythonpath_develop')
+[2.550s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/pc_ws/build/follow_waypoints/share/follow_waypoints/hook/pythonpath_develop.ps1'
+[2.550s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tarun_56/pc_ws/build/follow_waypoints' returned '0': PYTHONPATH=/home/tarun_56/pc_ws/build/follow_waypoints/prefix_override:/home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tarun_56/pc_ws/build/follow_waypoints/build --no-deps symlink_data --force
+[2.552s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tarun_56/pc_ws/build/follow_waypoints/share/follow_waypoints/hook/pythonpath_develop.dsv'
+[2.552s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/pc_ws/build/follow_waypoints/share/follow_waypoints/hook/pythonpath_develop.sh'
+[2.553s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/follow_waypoints' for CMake module files
+[2.553s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/follow_waypoints' for CMake config files
+[2.556s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/follow_waypoints/lib'
+[2.557s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/follow_waypoints/bin'
+[2.557s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/follow_waypoints/lib/pkgconfig/follow_waypoints.pc'
+[2.557s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages'
+[2.557s] Level 1:colcon.colcon_core.shell:create_environment_hook('follow_waypoints', 'pythonpath')
+[2.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/pc_ws/install/follow_waypoints/share/follow_waypoints/hook/pythonpath.ps1'
+[2.558s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tarun_56/pc_ws/install/follow_waypoints/share/follow_waypoints/hook/pythonpath.dsv'
+[2.559s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/pc_ws/install/follow_waypoints/share/follow_waypoints/hook/pythonpath.sh'
+[2.559s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/follow_waypoints/bin'
+[2.560s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(follow_waypoints)
+[2.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/pc_ws/install/follow_waypoints/share/follow_waypoints/package.ps1'
+[2.561s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tarun_56/pc_ws/install/follow_waypoints/share/follow_waypoints/package.dsv'
+[2.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/pc_ws/install/follow_waypoints/share/follow_waypoints/package.sh'
+[2.562s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/pc_ws/install/follow_waypoints/share/follow_waypoints/package.bash'
+[2.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/pc_ws/install/follow_waypoints/share/follow_waypoints/package.zsh'
+[2.563s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tarun_56/pc_ws/install/follow_waypoints/share/colcon-core/packages/follow_waypoints)
+[2.652s] Level 1:colcon.colcon_core.shell:create_environment_hook('ball_tracker', 'pythonpath_develop')
+[2.653s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/tarun_56/pc_ws/build/ball_tracker' returned '0': PYTHONPATH=/home/tarun_56/pc_ws/build/ball_tracker/prefix_override:/home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tarun_56/pc_ws/build/ball_tracker/build --no-deps symlink_data --force
+[2.653s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/pc_ws/build/ball_tracker/share/ball_tracker/hook/pythonpath_develop.ps1'
+[2.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tarun_56/pc_ws/build/ball_tracker/share/ball_tracker/hook/pythonpath_develop.dsv'
+[2.656s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/pc_ws/build/ball_tracker/share/ball_tracker/hook/pythonpath_develop.sh'
+[2.657s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/ball_tracker' for CMake module files
+[2.657s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/ball_tracker' for CMake config files
+[2.660s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/ball_tracker/lib'
+[2.661s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/ball_tracker/bin'
+[2.661s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/ball_tracker/lib/pkgconfig/ball_tracker.pc'
+[2.661s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages'
+[2.661s] Level 1:colcon.colcon_core.shell:create_environment_hook('ball_tracker', 'pythonpath')
+[2.661s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/pc_ws/install/ball_tracker/share/ball_tracker/hook/pythonpath.ps1'
+[2.662s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/tarun_56/pc_ws/install/ball_tracker/share/ball_tracker/hook/pythonpath.dsv'
+[2.663s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/tarun_56/pc_ws/install/ball_tracker/share/ball_tracker/hook/pythonpath.sh'
+[2.663s] Level 1:colcon.colcon_core.environment:checking '/home/tarun_56/pc_ws/install/ball_tracker/bin'
+[2.663s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ball_tracker)
+[2.664s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/pc_ws/install/ball_tracker/share/ball_tracker/package.ps1'
+[2.665s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/tarun_56/pc_ws/install/ball_tracker/share/ball_tracker/package.dsv'
+[2.666s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/pc_ws/install/ball_tracker/share/ball_tracker/package.sh'
+[2.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/pc_ws/install/ball_tracker/share/ball_tracker/package.bash'
+[2.667s] INFO:colcon.colcon_core.shell:Creating package script '/home/tarun_56/pc_ws/install/ball_tracker/share/ball_tracker/package.zsh'
+[2.668s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/tarun_56/pc_ws/install/ball_tracker/share/colcon-core/packages/ball_tracker)
+[2.668s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.669s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.669s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.670s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.675s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.675s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.676s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.691s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.692s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tarun_56/pc_ws/install/local_setup.ps1'
+[2.693s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tarun_56/pc_ws/install/_local_setup_util_ps1.py'
+[2.696s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tarun_56/pc_ws/install/setup.ps1'
+[2.698s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tarun_56/pc_ws/install/local_setup.sh'
+[2.699s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/tarun_56/pc_ws/install/_local_setup_util_sh.py'
+[2.700s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tarun_56/pc_ws/install/setup.sh'
+[2.701s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tarun_56/pc_ws/install/local_setup.bash'
+[2.703s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tarun_56/pc_ws/install/setup.bash'
+[2.704s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/tarun_56/pc_ws/install/local_setup.zsh'
+[2.705s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/tarun_56/pc_ws/install/setup.zsh'

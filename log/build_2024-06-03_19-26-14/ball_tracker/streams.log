@@ -1,0 +1,27 @@
+[1.220s] Invoking command in '/home/tarun_56/pc_ws/build/ball_tracker': PYTHONPATH=/home/tarun_56/pc_ws/build/ball_tracker/prefix_override:/home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tarun_56/pc_ws/build/ball_tracker/build --no-deps symlink_data --force
+[1.505s] /home/tarun_56/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.505s]   warnings.warn(
+[1.573s] running develop
+[1.824s] running egg_info
+[1.825s] writing ball_tracker.egg-info/PKG-INFO
+[1.826s] writing dependency_links to ball_tracker.egg-info/dependency_links.txt
+[1.826s] writing entry points to ball_tracker.egg-info/entry_points.txt
+[1.826s] writing requirements to ball_tracker.egg-info/requires.txt
+[1.827s] writing top-level names to ball_tracker.egg-info/top_level.txt
+[1.829s] reading manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[1.830s] writing manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[1.832s] running build_ext
+[1.832s] Creating /home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages/ball-tracker.egg-link (link to .)
+[1.833s] Installing detect_ball script to /home/tarun_56/pc_ws/install/ball_tracker/lib/ball_tracker
+[1.833s] Installing detect_ball_3d script to /home/tarun_56/pc_ws/install/ball_tracker/lib/ball_tracker
+[1.833s] Installing detect_robot_exe script to /home/tarun_56/pc_ws/install/ball_tracker/lib/ball_tracker
+[1.833s] Installing follow_ball script to /home/tarun_56/pc_ws/install/ball_tracker/lib/ball_tracker
+[1.834s] 
+[1.834s] Installed /home/tarun_56/pc_ws/build/ball_tracker
+[1.834s] running symlink_data
+[1.834s] symbolically linking /home/tarun_56/pc_ws/build/ball_tracker/resource/ball_tracker -> /home/tarun_56/pc_ws/install/ball_tracker/share/ament_index/resource_index/packages
+[1.835s] symbolically linking /home/tarun_56/pc_ws/build/ball_tracker/package.xml -> /home/tarun_56/pc_ws/install/ball_tracker/share/ball_tracker
+[1.835s] symbolically linking /home/tarun_56/pc_ws/build/ball_tracker/launch/example_launch_include.launch.py -> /home/tarun_56/pc_ws/install/ball_tracker/share/ball_tracker/launch
+[1.835s] symbolically linking /home/tarun_56/pc_ws/build/ball_tracker/launch/ball_tracker.launch.py -> /home/tarun_56/pc_ws/install/ball_tracker/share/ball_tracker/launch
+[1.835s] symbolically linking /home/tarun_56/pc_ws/build/ball_tracker/config/ball_tracker_params_example.yaml -> /home/tarun_56/pc_ws/install/ball_tracker/share/ball_tracker/config
+[1.864s] Invoked command in '/home/tarun_56/pc_ws/build/ball_tracker' returned '0': PYTHONPATH=/home/tarun_56/pc_ws/build/ball_tracker/prefix_override:/home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tarun_56/pc_ws/build/ball_tracker/build --no-deps symlink_data --force

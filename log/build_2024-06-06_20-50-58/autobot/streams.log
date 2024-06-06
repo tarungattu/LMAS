@@ -1,0 +1,67 @@
+[0.044s] Invoking command in '/home/tarun_56/pc_ws/build/autobot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tarun_56/pc_ws/build/autobot -- -j4 -l4
+[0.917s] Invoked command in '/home/tarun_56/pc_ws/build/autobot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/tarun_56/pc_ws/build/autobot -- -j4 -l4
+[0.990s] Invoking command in '/home/tarun_56/pc_ws/build/autobot': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tarun_56/pc_ws/build/autobot
+[1.017s] -- Install configuration: ""
+[1.017s] -- Execute custom install script
+[1.018s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/ball_tracker_params_robot.yaml
+[1.018s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/ball_tracker_params_sim.yaml
+[1.018s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/drive_bot.rviz
+[1.018s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/empty.yaml
+[1.018s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/gaz_ros2_ctl_use_sim.yaml
+[1.018s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/gazebo_params.yaml
+[1.018s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/joystick.yaml
+[1.018s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/main.rviz
+[1.018s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/map.rviz
+[1.018s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/map_params.yaml
+[1.018s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/mapper_params_online_async.yaml
+[1.018s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/my_controllers.yaml
+[1.019s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/nav2_params.yaml
+[1.019s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/twist_mux.yaml
+[1.019s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/config/view_bot.rviz
+[1.019s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/description/camera.xacro
+[1.019s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/description/depth_camera.xacro
+[1.019s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/description/face.xacro
+[1.019s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/description/gazebo_control.xacro
+[1.019s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/description/inertial_macros.xacro
+[1.019s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/description/lidar.xacro
+[1.020s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/description/robot.urdf.xacro
+[1.020s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/description/robot_core.xacro
+[1.020s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/description/ros2_control.xacro
+[1.020s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/ball_tracker.launch.py
+[1.020s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/camera.launch.py
+[1.020s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/detect_robot_launch.py
+[1.020s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/joystick.launch.py
+[1.020s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/launch_robot.launch.py
+[1.020s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/launch_sim.launch.py
+[1.020s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/localization_launch.py
+[1.020s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/main_two_robots.launch.xml
+[1.021s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/map_filters_launch.py
+[1.021s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/navigation_launch.py
+[1.021s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/online_async_launch.py
+[1.021s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/rplidar.launch.py
+[1.021s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/rsp.launch.py
+[1.022s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/start_world_standalone.launch.py
+[1.022s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/test_launch.py
+[1.022s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/worlds/empty.world
+[1.022s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/worlds/obstacles.world
+[1.022s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/worlds/room.world/model.config
+[1.022s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/worlds/room.world/model.sdf
+[1.023s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/worlds/test.world
+[1.023s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/worlds/track.world
+[1.023s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/worlds/warehouse.world
+[1.023s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/ament_index/resource_index/package_run_dependencies/autobot
+[1.023s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/ament_index/resource_index/parent_prefix_path/autobot
+[1.023s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/environment/ament_prefix_path.sh
+[1.024s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/environment/ament_prefix_path.dsv
+[1.024s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/environment/path.sh
+[1.024s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/environment/path.dsv
+[1.024s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/local_setup.bash
+[1.024s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/local_setup.sh
+[1.024s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/local_setup.zsh
+[1.024s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/local_setup.dsv
+[1.024s] -- Symlinking: /home/tarun_56/pc_ws/install/autobot/share/autobot/package.dsv
+[1.064s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/ament_index/resource_index/packages/autobot
+[1.065s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/cmake/autobotConfig.cmake
+[1.065s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/cmake/autobotConfig-version.cmake
+[1.065s] -- Up-to-date symlink: /home/tarun_56/pc_ws/install/autobot/share/autobot/package.xml
+[1.070s] Invoked command in '/home/tarun_56/pc_ws/build/autobot' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/tarun_56/pc_ws/build/autobot

@@ -3,6 +3,25 @@
         {
             "amr_no": 1,
             "machine_sequence": [
+                0,
+                1,
+                2,
+                3,
+                -2,
+                -1
+            ],
+            "ptime_sequence": [
+                10,
+                8,
+                4,
+                0,
+                2,
+                2
+            ]
+        },
+        {
+            "amr_no": 2,
+            "machine_sequence": [
                 1,
                 0,
                 3,
@@ -26,25 +45,6 @@
                 4,
                 7,
                 3,
-                0,
-                2,
-                2
-            ]
-        },
-        {
-            "amr_no": 2,
-            "machine_sequence": [
-                0,
-                1,
-                2,
-                3,
-                -2,
-                -1
-            ],
-            "ptime_sequence": [
-                10,
-                8,
-                4,
                 0,
                 2,
                 2

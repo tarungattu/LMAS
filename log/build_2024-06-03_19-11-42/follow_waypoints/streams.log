@@ -1,0 +1,35 @@
+[1.239s] Invoking command in '/home/tarun_56/pc_ws/build/follow_waypoints': PYTHONPATH=/home/tarun_56/pc_ws/build/follow_waypoints/prefix_override:/home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/tarun_56/pc_ws/build/follow_waypoints/build
+[1.516s] running develop
+[1.747s] Removing /home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages/follow-waypoints.egg-link (link to .)
+[1.787s] Invoked command in '/home/tarun_56/pc_ws/build/follow_waypoints' returned '0': PYTHONPATH=/home/tarun_56/pc_ws/build/follow_waypoints/prefix_override:/home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/tarun_56/pc_ws/build/follow_waypoints/build
+[1.789s] Invoking command in '/home/tarun_56/pc_ws/src/follow_waypoints': PYTHONPATH=/home/tarun_56/pc_ws/build/follow_waypoints/prefix_override:/home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/follow_waypoints build --build-base /home/tarun_56/pc_ws/build/follow_waypoints/build install --record /home/tarun_56/pc_ws/build/follow_waypoints/install.log --single-version-externally-managed install_data --force
+[2.096s] running egg_info
+[2.097s] writing ../../build/follow_waypoints/follow_waypoints.egg-info/PKG-INFO
+[2.098s] writing dependency_links to ../../build/follow_waypoints/follow_waypoints.egg-info/dependency_links.txt
+[2.098s] writing entry points to ../../build/follow_waypoints/follow_waypoints.egg-info/entry_points.txt
+[2.098s] writing requirements to ../../build/follow_waypoints/follow_waypoints.egg-info/requires.txt
+[2.099s] writing top-level names to ../../build/follow_waypoints/follow_waypoints.egg-info/top_level.txt
+[2.101s] reading manifest file '../../build/follow_waypoints/follow_waypoints.egg-info/SOURCES.txt'
+[2.103s] writing manifest file '../../build/follow_waypoints/follow_waypoints.egg-info/SOURCES.txt'
+[2.103s] running build
+[2.103s] running build_py
+[2.104s] running install
+[2.105s] running install_lib
+[2.105s] creating /home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints
+[2.105s] copying /home/tarun_56/pc_ws/build/follow_waypoints/build/lib/follow_waypoints/__init__.py -> /home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints
+[2.107s] copying /home/tarun_56/pc_ws/build/follow_waypoints/build/lib/follow_waypoints/follow_waypoints.py -> /home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints
+[2.107s] copying /home/tarun_56/pc_ws/build/follow_waypoints/build/lib/follow_waypoints/go_to_points.py -> /home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints
+[2.107s] byte-compiling /home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints/__init__.py to __init__.cpython-310.pyc
+[2.107s] byte-compiling /home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints/follow_waypoints.py to follow_waypoints.cpython-310.pyc
+[2.107s] byte-compiling /home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints/go_to_points.py to go_to_points.cpython-310.pyc
+[2.109s] running install_data
+[2.109s] copying resource/follow_waypoints -> /home/tarun_56/pc_ws/install/follow_waypoints/share/ament_index/resource_index/packages
+[2.109s] copying package.xml -> /home/tarun_56/pc_ws/install/follow_waypoints/share/follow_waypoints
+[2.109s] copying config/follow_waypoints.yaml -> /home/tarun_56/pc_ws/install/follow_waypoints/share/follow_waypoints/config
+[2.110s] running install_egg_info
+[2.112s] Copying ../../build/follow_waypoints/follow_waypoints.egg-info to /home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints-0.0.0-py3.10.egg-info
+[2.112s] running install_scripts
+[2.140s] Installing follow_waypoints_exe script to /home/tarun_56/pc_ws/install/follow_waypoints/lib/follow_waypoints
+[2.140s] Installing go_to_points_exe script to /home/tarun_56/pc_ws/install/follow_waypoints/lib/follow_waypoints
+[2.140s] writing list of installed files to '/home/tarun_56/pc_ws/build/follow_waypoints/install.log'
+[2.176s] Invoked command in '/home/tarun_56/pc_ws/src/follow_waypoints' returned '0': PYTHONPATH=/home/tarun_56/pc_ws/build/follow_waypoints/prefix_override:/home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/follow_waypoints build --build-base /home/tarun_56/pc_ws/build/follow_waypoints/build install --record /home/tarun_56/pc_ws/build/follow_waypoints/install.log --single-version-externally-managed install_data --force

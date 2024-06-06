@@ -1,0 +1,31 @@
+running develop
+Removing /home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages/follow-waypoints.egg-link (link to .)
+running egg_info
+writing ../../build/follow_waypoints/follow_waypoints.egg-info/PKG-INFO
+writing dependency_links to ../../build/follow_waypoints/follow_waypoints.egg-info/dependency_links.txt
+writing entry points to ../../build/follow_waypoints/follow_waypoints.egg-info/entry_points.txt
+writing requirements to ../../build/follow_waypoints/follow_waypoints.egg-info/requires.txt
+writing top-level names to ../../build/follow_waypoints/follow_waypoints.egg-info/top_level.txt
+reading manifest file '../../build/follow_waypoints/follow_waypoints.egg-info/SOURCES.txt'
+writing manifest file '../../build/follow_waypoints/follow_waypoints.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints
+copying /home/tarun_56/pc_ws/build/follow_waypoints/build/lib/follow_waypoints/__init__.py -> /home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints
+copying /home/tarun_56/pc_ws/build/follow_waypoints/build/lib/follow_waypoints/follow_waypoints.py -> /home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints
+copying /home/tarun_56/pc_ws/build/follow_waypoints/build/lib/follow_waypoints/go_to_points.py -> /home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints
+byte-compiling /home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints/follow_waypoints.py to follow_waypoints.cpython-310.pyc
+byte-compiling /home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints/go_to_points.py to go_to_points.cpython-310.pyc
+running install_data
+copying resource/follow_waypoints -> /home/tarun_56/pc_ws/install/follow_waypoints/share/ament_index/resource_index/packages
+copying package.xml -> /home/tarun_56/pc_ws/install/follow_waypoints/share/follow_waypoints
+copying config/follow_waypoints.yaml -> /home/tarun_56/pc_ws/install/follow_waypoints/share/follow_waypoints/config
+running install_egg_info
+Copying ../../build/follow_waypoints/follow_waypoints.egg-info to /home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages/follow_waypoints-0.0.0-py3.10.egg-info
+running install_scripts
+Installing follow_waypoints_exe script to /home/tarun_56/pc_ws/install/follow_waypoints/lib/follow_waypoints
+Installing go_to_points_exe script to /home/tarun_56/pc_ws/install/follow_waypoints/lib/follow_waypoints
+writing list of installed files to '/home/tarun_56/pc_ws/build/follow_waypoints/install.log'

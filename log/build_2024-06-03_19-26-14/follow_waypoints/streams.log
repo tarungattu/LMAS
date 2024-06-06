@@ -1,0 +1,21 @@
+[1.212s] Invoking command in '/home/tarun_56/pc_ws/build/follow_waypoints': PYTHONPATH=/home/tarun_56/pc_ws/build/follow_waypoints/prefix_override:/home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tarun_56/pc_ws/build/follow_waypoints/build --no-deps symlink_data --force
+[1.509s] running develop
+[1.693s] running egg_info
+[1.694s] writing follow_waypoints.egg-info/PKG-INFO
+[1.698s] writing dependency_links to follow_waypoints.egg-info/dependency_links.txt
+[1.699s] writing entry points to follow_waypoints.egg-info/entry_points.txt
+[1.700s] writing requirements to follow_waypoints.egg-info/requires.txt
+[1.701s] writing top-level names to follow_waypoints.egg-info/top_level.txt
+[1.703s] reading manifest file 'follow_waypoints.egg-info/SOURCES.txt'
+[1.705s] writing manifest file 'follow_waypoints.egg-info/SOURCES.txt'
+[1.707s] running build_ext
+[1.707s] Creating /home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages/follow-waypoints.egg-link (link to .)
+[1.708s] Installing follow_waypoints_exe script to /home/tarun_56/pc_ws/install/follow_waypoints/lib/follow_waypoints
+[1.709s] Installing go_to_points_exe script to /home/tarun_56/pc_ws/install/follow_waypoints/lib/follow_waypoints
+[1.710s] 
+[1.711s] Installed /home/tarun_56/pc_ws/build/follow_waypoints
+[1.711s] running symlink_data
+[1.711s] symbolically linking /home/tarun_56/pc_ws/build/follow_waypoints/resource/follow_waypoints -> /home/tarun_56/pc_ws/install/follow_waypoints/share/ament_index/resource_index/packages
+[1.713s] symbolically linking /home/tarun_56/pc_ws/build/follow_waypoints/package.xml -> /home/tarun_56/pc_ws/install/follow_waypoints/share/follow_waypoints
+[1.714s] symbolically linking /home/tarun_56/pc_ws/build/follow_waypoints/config/follow_waypoints.yaml -> /home/tarun_56/pc_ws/install/follow_waypoints/share/follow_waypoints/config
+[1.746s] Invoked command in '/home/tarun_56/pc_ws/build/follow_waypoints' returned '0': PYTHONPATH=/home/tarun_56/pc_ws/build/follow_waypoints/prefix_override:/home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tarun_56/pc_ws/build/follow_waypoints/build --no-deps symlink_data --force

@@ -1,0 +1,18 @@
+[1.552s] Invoking command in '/home/tarun_56/pc_ws/build/follow_waypoints': PYTHONPATH=/home/tarun_56/pc_ws/build/follow_waypoints/prefix_override:/home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tarun_56/pc_ws/build/follow_waypoints/build --no-deps symlink_data
+[1.938s] running develop
+[2.236s] running egg_info
+[2.237s] writing follow_waypoints.egg-info/PKG-INFO
+[2.238s] writing dependency_links to follow_waypoints.egg-info/dependency_links.txt
+[2.239s] writing entry points to follow_waypoints.egg-info/entry_points.txt
+[2.240s] writing requirements to follow_waypoints.egg-info/requires.txt
+[2.241s] writing top-level names to follow_waypoints.egg-info/top_level.txt
+[2.244s] reading manifest file 'follow_waypoints.egg-info/SOURCES.txt'
+[2.247s] writing manifest file 'follow_waypoints.egg-info/SOURCES.txt'
+[2.249s] running build_ext
+[2.250s] Creating /home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages/follow-waypoints.egg-link (link to .)
+[2.252s] Installing follow_waypoints_exe script to /home/tarun_56/pc_ws/install/follow_waypoints/lib/follow_waypoints
+[2.253s] Installing go_to_points_exe script to /home/tarun_56/pc_ws/install/follow_waypoints/lib/follow_waypoints
+[2.253s] 
+[2.253s] Installed /home/tarun_56/pc_ws/build/follow_waypoints
+[2.253s] running symlink_data
+[2.309s] Invoked command in '/home/tarun_56/pc_ws/build/follow_waypoints' returned '0': PYTHONPATH=/home/tarun_56/pc_ws/build/follow_waypoints/prefix_override:/home/tarun_56/pc_ws/install/follow_waypoints/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tarun_56/pc_ws/build/follow_waypoints/build --no-deps symlink_data

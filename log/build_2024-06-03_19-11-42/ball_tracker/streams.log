@@ -1,0 +1,50 @@
+[1.246s] Invoking command in '/home/tarun_56/pc_ws/build/ball_tracker': PYTHONPATH=/home/tarun_56/pc_ws/build/ball_tracker/prefix_override:/home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/tarun_56/pc_ws/build/ball_tracker/build
+[1.474s] /home/tarun_56/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[1.474s]   warnings.warn(
+[1.524s] running develop
+[1.763s] Removing /home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages/ball-tracker.egg-link (link to .)
+[1.805s] Invoked command in '/home/tarun_56/pc_ws/build/ball_tracker' returned '0': PYTHONPATH=/home/tarun_56/pc_ws/build/ball_tracker/prefix_override:/home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /home/tarun_56/pc_ws/build/ball_tracker/build
+[1.806s] Invoking command in '/home/tarun_56/pc_ws/src/ball_tracker': PYTHONPATH=/home/tarun_56/pc_ws/build/ball_tracker/prefix_override:/home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ball_tracker build --build-base /home/tarun_56/pc_ws/build/ball_tracker/build install --record /home/tarun_56/pc_ws/build/ball_tracker/install.log --install-scripts $base/lib/ball_tracker --single-version-externally-managed install_data --force
+[2.091s] /home/tarun_56/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.091s]   warnings.warn(
+[2.126s] running egg_info
+[2.127s] writing ../../build/ball_tracker/ball_tracker.egg-info/PKG-INFO
+[2.128s] writing dependency_links to ../../build/ball_tracker/ball_tracker.egg-info/dependency_links.txt
+[2.128s] writing entry points to ../../build/ball_tracker/ball_tracker.egg-info/entry_points.txt
+[2.130s] writing requirements to ../../build/ball_tracker/ball_tracker.egg-info/requires.txt
+[2.130s] writing top-level names to ../../build/ball_tracker/ball_tracker.egg-info/top_level.txt
+[2.133s] reading manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+[2.134s] writing manifest file '../../build/ball_tracker/ball_tracker.egg-info/SOURCES.txt'
+[2.134s] running build
+[2.134s] running build_py
+[2.134s] copying ball_tracker/stop_behind_robot.py -> /home/tarun_56/pc_ws/build/ball_tracker/build/lib/ball_tracker
+[2.134s] running install
+[2.134s] running install_lib
+[2.136s] creating /home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[2.137s] copying /home/tarun_56/pc_ws/build/ball_tracker/build/lib/ball_tracker/__init__.py -> /home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[2.138s] copying /home/tarun_56/pc_ws/build/ball_tracker/build/lib/ball_tracker/stop_behind_robot.py -> /home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[2.138s] copying /home/tarun_56/pc_ws/build/ball_tracker/build/lib/ball_tracker/follow_ball.py -> /home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[2.138s] copying /home/tarun_56/pc_ws/build/ball_tracker/build/lib/ball_tracker/process_image.py -> /home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[2.140s] copying /home/tarun_56/pc_ws/build/ball_tracker/build/lib/ball_tracker/detect_ball.py -> /home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[2.140s] copying /home/tarun_56/pc_ws/build/ball_tracker/build/lib/ball_tracker/detect_ball_3d.py -> /home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages/ball_tracker
+[2.140s] byte-compiling /home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/__init__.py to __init__.cpython-310.pyc
+[2.140s] byte-compiling /home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/stop_behind_robot.py to stop_behind_robot.cpython-310.pyc
+[2.140s] byte-compiling /home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/follow_ball.py to follow_ball.cpython-310.pyc
+[2.140s] byte-compiling /home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/process_image.py to process_image.cpython-310.pyc
+[2.141s] byte-compiling /home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/detect_ball.py to detect_ball.cpython-310.pyc
+[2.145s] byte-compiling /home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages/ball_tracker/detect_ball_3d.py to detect_ball_3d.cpython-310.pyc
+[2.145s] running install_data
+[2.145s] copying resource/ball_tracker -> /home/tarun_56/pc_ws/install/ball_tracker/share/ament_index/resource_index/packages
+[2.146s] copying package.xml -> /home/tarun_56/pc_ws/install/ball_tracker/share/ball_tracker
+[2.146s] copying launch/example_launch_include.launch.py -> /home/tarun_56/pc_ws/install/ball_tracker/share/ball_tracker/launch
+[2.146s] copying launch/ball_tracker.launch.py -> /home/tarun_56/pc_ws/install/ball_tracker/share/ball_tracker/launch
+[2.146s] copying config/ball_tracker_params_example.yaml -> /home/tarun_56/pc_ws/install/ball_tracker/share/ball_tracker/config
+[2.146s] running install_egg_info
+[2.149s] Copying ../../build/ball_tracker/ball_tracker.egg-info to /home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages/ball_tracker-0.0.0-py3.10.egg-info
+[2.149s] running install_scripts
+[2.174s] Installing detect_ball script to /home/tarun_56/pc_ws/install/ball_tracker/lib/ball_tracker
+[2.175s] Installing detect_ball_3d script to /home/tarun_56/pc_ws/install/ball_tracker/lib/ball_tracker
+[2.175s] Installing detect_robot_exe script to /home/tarun_56/pc_ws/install/ball_tracker/lib/ball_tracker
+[2.176s] Installing follow_ball script to /home/tarun_56/pc_ws/install/ball_tracker/lib/ball_tracker
+[2.176s] writing list of installed files to '/home/tarun_56/pc_ws/build/ball_tracker/install.log'
+[2.207s] Invoked command in '/home/tarun_56/pc_ws/src/ball_tracker' returned '0': PYTHONPATH=/home/tarun_56/pc_ws/build/ball_tracker/prefix_override:/home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/ball_tracker build --build-base /home/tarun_56/pc_ws/build/ball_tracker/build install --record /home/tarun_56/pc_ws/build/ball_tracker/install.log --install-scripts $base/lib/ball_tracker --single-version-externally-managed install_data --force

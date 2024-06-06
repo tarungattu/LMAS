@@ -13,6 +13,7 @@ ball_tracker/detect_ball.py
 ball_tracker/detect_ball_3d.py
 ball_tracker/follow_ball.py
 ball_tracker/process_image.py
+ball_tracker/stop_behind_robot.py
 ball_tracker.egg-info/PKG-INFO
 ball_tracker.egg-info/SOURCES.txt
 ball_tracker.egg-info/dependency_links.txt
@@ -22,5 +23,6 @@ ball_tracker.egg-info/top_level.txt
 ball_tracker.egg-info/zip-safe
 config/ball_tracker_params_example.yaml
 launch/ball_tracker.launch.py
+launch/detect_robot_launch.py
 launch/example_launch_include.launch.py
 resource/ball_tracker
