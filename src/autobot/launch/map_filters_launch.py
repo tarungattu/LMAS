@@ -5,9 +5,14 @@ from launch.conditions import IfCondition
 from launch.substitutions import LaunchConfiguration, PythonExpression
 from launch_ros.actions import Node, LoadComposableNodes
 from nav2_common.launch import RewrittenYaml
+from ament_index_python.packages import get_package_share_directory
 
 def generate_launch_description():
     lifecycle_nodes = ['filter_mask_server', 'costmap_filter_info_server']
+    default_params_file = os.path.join(get_package_share_directory("autobot"),
+                                       'config', 'map_filter_params.yaml')
+    
+    default_mask_params_file = os.path.join('keepout_mask.yaml')
 
     # Parameters
     namespace = LaunchConfiguration('namespace')
@@ -37,12 +42,12 @@ def generate_launch_description():
     )
 
     declare_params_file_cmd = DeclareLaunchArgument(
-        'params_file', default_value='./src/autobot/config/map_filter_params.yaml',
+        'params_file', default_value=default_params_file,
         description='Full path to the ROS2 parameters file to use'
     )
 
     declare_mask_yaml_file_cmd = DeclareLaunchArgument(
-        'mask', default_value='./keepout_filter.yaml',
+        'mask', default_value=default_mask_params_file,
         description='Full path to filter mask yaml file to load'
     )
 

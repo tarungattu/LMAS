@@ -13,6 +13,7 @@
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/nav2_params.yaml
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/twist_mux.yaml
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/view_bot.rviz
+/home/tarun_56/pc_ws/install/autobot/share/autobot/config/warehouse.rviz
 /home/tarun_56/pc_ws/install/autobot/share/autobot/description/camera.xacro
 /home/tarun_56/pc_ws/install/autobot/share/autobot/description/depth_camera.xacro
 /home/tarun_56/pc_ws/install/autobot/share/autobot/description/face.xacro
@@ -44,6 +45,8 @@
 /home/tarun_56/pc_ws/install/autobot/share/autobot/worlds/test.world
 /home/tarun_56/pc_ws/install/autobot/share/autobot/worlds/track.world
 /home/tarun_56/pc_ws/install/autobot/share/autobot/worlds/warehouse.world
+/home/tarun_56/pc_ws/install/autobot/share/autobot/worlds/warehouse0.world
+/home/tarun_56/pc_ws/install/autobot/share/autobot/worlds/warehouse1.world
 /home/tarun_56/pc_ws/install/autobot/share/ament_index/resource_index/package_run_dependencies/autobot
 /home/tarun_56/pc_ws/install/autobot/share/ament_index/resource_index/parent_prefix_path/autobot
 /home/tarun_56/pc_ws/install/autobot/share/autobot/environment/ament_prefix_path.sh
