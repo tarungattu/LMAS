@@ -1,3 +1,4 @@
+/home/tarun_56/pc_ws/install/autobot/share/autobot/config/amr1.rviz
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/ball_tracker_params_robot.yaml
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/ball_tracker_params_sim.yaml
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/drive_bot.rviz
@@ -8,9 +9,12 @@
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/main.rviz
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/map.rviz
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/map_filter_params.yaml
+/home/tarun_56/pc_ws/install/autobot/share/autobot/config/mapper_params_amr_1.yaml
+/home/tarun_56/pc_ws/install/autobot/share/autobot/config/mapper_params_amr_2.yaml
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/mapper_params_online_async.yaml
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/my_controllers.yaml
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/nav2_params.yaml
+/home/tarun_56/pc_ws/install/autobot/share/autobot/config/nav2_params_amr_1.yaml
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/twist_mux.yaml
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/view_bot.rviz
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/warehouse.rviz
@@ -38,6 +42,7 @@
 /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/online_async_launch.py
 /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/rplidar.launch.py
 /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/rsp.launch.py
+/home/tarun_56/pc_ws/install/autobot/share/autobot/launch/single_bot_spawn.launch.xml
 /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/spawn.launch.py
 /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/start_world_standalone.launch.py
 /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/test_launch.py
