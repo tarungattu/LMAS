@@ -1,4 +1,5 @@
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/amr1.rviz
+/home/tarun_56/pc_ws/install/autobot/share/autobot/config/amr2.rviz
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/ball_tracker_params_robot.yaml
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/ball_tracker_params_sim.yaml
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/drive_bot.rviz
