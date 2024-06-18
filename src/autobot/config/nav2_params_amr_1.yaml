@@ -1,4 +1,4 @@
-amcl:
+amr_1/amcl:
   ros__parameters:
     use_sim_time: True
     alpha1: 0.2
@@ -37,7 +37,7 @@ amcl:
     z_max: 0.05
     z_rand: 0.5
     z_short: 0.05
-    scan_topic: amr_1/scan
+    scan_topic: "scan"
 
 bt_navigator:
   ros__parameters:

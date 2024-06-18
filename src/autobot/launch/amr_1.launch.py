@@ -13,7 +13,7 @@ from launch.actions import OpaqueFunction
 
 def gen_robot_info():
 
-    pose_1 = [-7.18, -0.31]
+    pose_1 = [-6.88, 3.31]
 
     robot_name = "amr_1"
     x_pos = pose_1[0]

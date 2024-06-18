@@ -47,6 +47,7 @@
 /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/spawn.launch.py
 /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/start_world_standalone.launch.py
 /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/test_launch.py
+/home/tarun_56/pc_ws/install/autobot/share/autobot/launch/two_robots_launch.py
 /home/tarun_56/pc_ws/install/autobot/share/autobot/worlds/empty.world
 /home/tarun_56/pc_ws/install/autobot/share/autobot/worlds/obstacles.world
 /home/tarun_56/pc_ws/install/autobot/share/autobot/worlds/room.world/model.config
