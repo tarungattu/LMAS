@@ -1,4 +1,4 @@
-slam_toolbox:
+slam_toolbox_amr_1:
   ros__parameters:
 
     # Plugin params
@@ -12,15 +12,15 @@ slam_toolbox:
 
     # ROS Parameters
     odom_frame: amr_1/odom
-    map_frame: map
-    base_frame: amr_1/base_footprint
+    map_frame: /map
+    base_frame: amr_1/base_link
     scan_topic: amr_1/scan
-    mode: mapping # localization
+    mode: localization  # mapping
 
     # if you'd like to immediately start continuing a map at a given pose
     # or at the dock, but they are mutually exclusive, if pose is given
     # will use pose
-    map_file_name: /home/tarun_56/pc_ws/warehouse_map_serial
+    map_file_name: /home/tarun_56/pc_ws/new_warehouse_serial
     # map_start_pose: [0.0, 0.0, 0.0]
     map_start_at_dock: true
 

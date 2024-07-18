@@ -1,0 +1,21 @@
+[1.230s] Invoking command in '/home/tarun_56/pc_ws/build/turtlebot3_description': /usr/bin/cmake /home/tarun_56/pc_ws/src/turtlebot3_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tarun_56/pc_ws/install/turtlebot3_description
+[1.289s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[1.289s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.289s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.289s]   CMake did not find one.
+[1.289s] 
+[1.289s]   Could not find a package configuration file provided by "catkin" with any
+[1.289s]   of the following names:
+[1.290s] 
+[1.290s]     catkinConfig.cmake
+[1.290s]     catkin-config.cmake
+[1.290s] 
+[1.290s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.290s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.290s]   provides a separate development package or SDK, be sure it has been
+[1.294s]   installed.
+[1.295s] 
+[1.295s] [0m
+[1.297s] -- Configuring incomplete, errors occurred!
+[1.297s] See also "/home/tarun_56/pc_ws/build/turtlebot3_description/CMakeFiles/CMakeOutput.log".
+[1.309s] Invoked command in '/home/tarun_56/pc_ws/build/turtlebot3_description' returned '1': /usr/bin/cmake /home/tarun_56/pc_ws/src/turtlebot3_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/tarun_56/pc_ws/install/turtlebot3_description

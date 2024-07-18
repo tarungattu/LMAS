@@ -1,0 +1,33 @@
+[0.808s] Invoking command in '/home/tarun_56/pc_ws/build/turtlebot3': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tarun_56/pc_ws/install/follow_waypoints:/home/tarun_56/pc_ws/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /home/tarun_56/pc_ws/src/turtlebot3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tarun_56/pc_ws/install/turtlebot3
+[1.149s] -- The C compiler identification is GNU 11.4.0
+[1.430s] -- The CXX compiler identification is GNU 11.4.0
+[1.456s] -- Detecting C compiler ABI info
+[1.681s] -- Detecting C compiler ABI info - done
+[1.694s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.695s] -- Detecting C compile features
+[1.698s] -- Detecting C compile features - done
+[1.708s] -- Detecting CXX compiler ABI info
+[1.917s] -- Detecting CXX compiler ABI info - done
+[1.928s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.929s] -- Detecting CXX compile features
+[1.931s] -- Detecting CXX compile features - done
+[1.968s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[1.968s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.968s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.968s]   CMake did not find one.
+[1.968s] 
+[1.968s]   Could not find a package configuration file provided by "catkin" with any
+[1.969s]   of the following names:
+[1.969s] 
+[1.969s]     catkinConfig.cmake
+[1.969s]     catkin-config.cmake
+[1.969s] 
+[1.969s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.969s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.969s]   provides a separate development package or SDK, be sure it has been
+[1.969s]   installed.
+[1.969s] 
+[1.970s] [0m
+[1.978s] -- Configuring incomplete, errors occurred!
+[1.982s] See also "/home/tarun_56/pc_ws/build/turtlebot3/CMakeFiles/CMakeOutput.log".
+[1.990s] Invoked command in '/home/tarun_56/pc_ws/build/turtlebot3' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tarun_56/pc_ws/install/follow_waypoints:/home/tarun_56/pc_ws/install/ball_tracker:/opt/ros/humble /usr/bin/cmake /home/tarun_56/pc_ws/src/turtlebot3 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tarun_56/pc_ws/install/turtlebot3

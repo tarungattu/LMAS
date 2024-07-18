@@ -3,7 +3,7 @@
     <xacro:macro name="lidar" params="robot_name">
 
         <joint name="laser_joint" type="fixed">
-            <parent link="chassis"/>
+            <parent link="base_link"/>
             <child link="laser_frame"/>
             <origin xyz="0.122 0 0.212" rpy="0 0 0"/>
         </joint>

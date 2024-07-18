@@ -1,0 +1,22 @@
+[2.575s] Invoking command in '/home/tarun_56/pc_ws/build/turtlebot3_description': PYTHONPATH=/home/tarun_56/pc_ws/build/turtlebot3_description/prefix_override:/home/tarun_56/pc_ws/install/turtlebot3_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tarun_56/pc_ws/build/turtlebot3_description/build --no-deps symlink_data
+[3.603s] running develop
+[4.151s] running egg_info
+[4.151s] creating turtlebot3_description.egg-info
+[4.153s] writing turtlebot3_description.egg-info/PKG-INFO
+[4.153s] writing dependency_links to turtlebot3_description.egg-info/dependency_links.txt
+[4.153s] writing entry points to turtlebot3_description.egg-info/entry_points.txt
+[4.156s] writing requirements to turtlebot3_description.egg-info/requires.txt
+[4.156s] writing top-level names to turtlebot3_description.egg-info/top_level.txt
+[4.156s] writing manifest file 'turtlebot3_description.egg-info/SOURCES.txt'
+[4.158s] reading manifest file 'turtlebot3_description.egg-info/SOURCES.txt'
+[4.158s] writing manifest file 'turtlebot3_description.egg-info/SOURCES.txt'
+[4.163s] running build_ext
+[4.166s] Creating /home/tarun_56/pc_ws/install/turtlebot3_description/lib/python3.10/site-packages/turtlebot3-description.egg-link (link to .)
+[4.170s] 
+[4.170s] Installed /home/tarun_56/pc_ws/build/turtlebot3_description
+[4.170s] running symlink_data
+[4.170s] creating /home/tarun_56/pc_ws/install/turtlebot3_description/share/ament_index
+[4.170s] creating /home/tarun_56/pc_ws/install/turtlebot3_description/share/ament_index/resource_index
+[4.171s] creating /home/tarun_56/pc_ws/install/turtlebot3_description/share/ament_index/resource_index/packages
+[4.171s] error: can't copy '/home/tarun_56/pc_ws/build/turtlebot3_description/resource/turtlebot3_description': doesn't exist or not a regular file
+[4.266s] Invoked command in '/home/tarun_56/pc_ws/build/turtlebot3_description' returned '1': PYTHONPATH=/home/tarun_56/pc_ws/build/turtlebot3_description/prefix_override:/home/tarun_56/pc_ws/install/turtlebot3_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tarun_56/pc_ws/build/turtlebot3_description/build --no-deps symlink_data

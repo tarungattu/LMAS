@@ -1,0 +1,10 @@
+package.xml
+setup.cfg
+setup.py
+turtlebot3_description.egg-info/PKG-INFO
+turtlebot3_description.egg-info/SOURCES.txt
+turtlebot3_description.egg-info/dependency_links.txt
+turtlebot3_description.egg-info/entry_points.txt
+turtlebot3_description.egg-info/requires.txt
+turtlebot3_description.egg-info/top_level.txt
+turtlebot3_description.egg-info/zip-safe

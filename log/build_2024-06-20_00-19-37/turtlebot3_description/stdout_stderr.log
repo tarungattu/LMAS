@@ -1,0 +1,20 @@
+running develop
+running egg_info
+creating turtlebot3_description.egg-info
+writing turtlebot3_description.egg-info/PKG-INFO
+writing dependency_links to turtlebot3_description.egg-info/dependency_links.txt
+writing entry points to turtlebot3_description.egg-info/entry_points.txt
+writing requirements to turtlebot3_description.egg-info/requires.txt
+writing top-level names to turtlebot3_description.egg-info/top_level.txt
+writing manifest file 'turtlebot3_description.egg-info/SOURCES.txt'
+reading manifest file 'turtlebot3_description.egg-info/SOURCES.txt'
+writing manifest file 'turtlebot3_description.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tarun_56/pc_ws/install/turtlebot3_description/lib/python3.10/site-packages/turtlebot3-description.egg-link (link to .)
+
+Installed /home/tarun_56/pc_ws/build/turtlebot3_description
+running symlink_data
+creating /home/tarun_56/pc_ws/install/turtlebot3_description/share/ament_index
+creating /home/tarun_56/pc_ws/install/turtlebot3_description/share/ament_index/resource_index
+creating /home/tarun_56/pc_ws/install/turtlebot3_description/share/ament_index/resource_index/packages
+error: can't copy '/home/tarun_56/pc_ws/build/turtlebot3_description/resource/turtlebot3_description': doesn't exist or not a regular file

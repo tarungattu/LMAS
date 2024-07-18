@@ -1,0 +1,21 @@
+[1.769s] Invoking command in '/home/tarun_56/pc_ws/build/ball_tracker': PYTHONPATH=/home/tarun_56/pc_ws/build/ball_tracker/prefix_override:/home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py develop --editable --build-directory /home/tarun_56/pc_ws/build/ball_tracker/build --no-deps symlink_data
+[2.194s] /home/tarun_56/.local/lib/python3.10/site-packages/setuptools/dist.py:717: UserWarning: Usage of dash-separated 'script-dir' will not be supported in future versions. Please use the underscore name 'script_dir' instead
+[2.194s]   warnings.warn(
+[2.264s] running develop
+[2.532s] running egg_info
+[2.534s] writing ball_tracker.egg-info/PKG-INFO
+[2.534s] writing dependency_links to ball_tracker.egg-info/dependency_links.txt
+[2.534s] writing entry points to ball_tracker.egg-info/entry_points.txt
+[2.534s] writing requirements to ball_tracker.egg-info/requires.txt
+[2.534s] writing top-level names to ball_tracker.egg-info/top_level.txt
+[2.538s] reading manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[2.538s] writing manifest file 'ball_tracker.egg-info/SOURCES.txt'
+[2.541s] running build_ext
+[2.541s] Creating /home/tarun_56/pc_ws/install/ball_tracker/lib/python3.10/site-packages/ball-tracker.egg-link (link to .)
+[2.542s] Installing detect_ball script to /home/tarun_56/pc_ws/install/ball_tracker/lib/ball_tracker
+[2.543s] Installing detect_ball_3d script to /home/tarun_56/pc_ws/install/ball_tracker/lib/ball_tracker
+[2.544s] Installing detect_robot_exe script to /home/tarun_56/pc_ws/install/ball_tracker/lib/ball_tracker
+[2.544s] Installing follow_ball script to /home/tarun_56/pc_ws/install/ball_tracker/lib/ball_tracker
+[2.545s] 
+[2.545s] Installed /home/tarun_56/pc_ws/build/ball_tracker
+[2.545s] running symlink_data

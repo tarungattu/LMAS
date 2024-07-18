@@ -99,16 +99,32 @@ def generate_launch_description():
             output="screen"
         ),
 
+        # Node(
+        #     package='robot_state_publisher',
+        #     executable='robot_state_publisher',
+        #     name='robot_state_publisher',
+        #     namespace=entity_name_1,
+        #     parameters=[{'frame_prefix': entity_name_1+'/', 'use_sim_time': use_sim_time, 'robot_description': Command(['xacro ', robot_desc_path, ' robot_name:=', entity_name_1])}],
+        #     output="screen"
+        # ),
         Node(
-            package='robot_state_publisher',
-            executable='robot_state_publisher',
-            name='robot_state_publisher',
-            namespace=entity_name_1,
-            parameters=[{'frame_prefix': entity_name_1+'/', 'use_sim_time': use_sim_time, 'robot_description': Command(['xacro ', robot_desc_path, ' robot_name:=', entity_name_1])}],
+            package='joint_state_publisher',
+            executable='joint_state_publisher',
+            name='joint_state_publisher',
+            namespace=entity_name_0,
+            parameters=[{'frame_prefix': entity_name_0+'/', 'use_sim_time': True, 'robot_description': Command(['xacro ', robot_desc_path, ' robot_name:=', entity_name_0])}],
             output="screen"
         ),
+        # Node(
+        #     package='joint_state_publisher',
+        #     executable='joint_state_publisher',
+        #     name='joint_state_publisher',
+        #     namespace=entity_name_1,
+        #     parameters=[{'frame_prefix': entity_name_1+'/', 'use_sim_time': True, 'robot_description': Command(['xacro ', robot_desc_path, ' robot_name:=', entity_name_1])}],
+        #     output="screen"
+        # ),
         start_gazebo_ros_spawner_cmd_0,
-        start_gazebo_ros_spawner_cmd_1
+        # start_gazebo_ros_spawner_cmd_1
 
         
 

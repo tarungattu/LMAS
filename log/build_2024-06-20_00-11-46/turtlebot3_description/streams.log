@@ -1,0 +1,33 @@
+[0.815s] Invoking command in '/home/tarun_56/pc_ws/build/turtlebot3_description': /usr/bin/cmake /home/tarun_56/pc_ws/src/turtlebot3_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/tarun_56/pc_ws/install/turtlebot3_description
+[1.056s] -- The C compiler identification is GNU 11.4.0
+[1.268s] -- The CXX compiler identification is GNU 11.4.0
+[1.284s] -- Detecting C compiler ABI info
+[1.515s] -- Detecting C compiler ABI info - done
+[1.515s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.515s] -- Detecting C compile features
+[1.515s] -- Detecting C compile features - done
+[1.538s] -- Detecting CXX compiler ABI info
+[1.803s] -- Detecting CXX compiler ABI info - done
+[1.825s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.825s] -- Detecting CXX compile features
+[1.826s] -- Detecting CXX compile features - done
+[1.858s] [31mCMake Error at CMakeLists.txt:10 (find_package):
+[1.859s]   By not providing "Findcatkin.cmake" in CMAKE_MODULE_PATH this project has
+[1.859s]   asked CMake to find a package configuration file provided by "catkin", but
+[1.860s]   CMake did not find one.
+[1.868s] 
+[1.868s]   Could not find a package configuration file provided by "catkin" with any
+[1.868s]   of the following names:
+[1.869s] 
+[1.869s]     catkinConfig.cmake
+[1.869s]     catkin-config.cmake
+[1.869s] 
+[1.869s]   Add the installation prefix of "catkin" to CMAKE_PREFIX_PATH or set
+[1.869s]   "catkin_DIR" to a directory containing one of the above files.  If "catkin"
+[1.869s]   provides a separate development package or SDK, be sure it has been
+[1.869s]   installed.
+[1.869s] 
+[1.869s] [0m
+[1.869s] -- Configuring incomplete, errors occurred!
+[1.870s] See also "/home/tarun_56/pc_ws/build/turtlebot3_description/CMakeFiles/CMakeOutput.log".
+[1.870s] Invoked command in '/home/tarun_56/pc_ws/build/turtlebot3_description' returned '1': /usr/bin/cmake /home/tarun_56/pc_ws/src/turtlebot3_description -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCATKIN_SYMLINK_INSTALL=ON -DCMAKE_INSTALL_PREFIX=/home/tarun_56/pc_ws/install/turtlebot3_description

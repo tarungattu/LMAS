@@ -1,5 +1,7 @@
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/amr1.rviz
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/amr2.rviz
+/home/tarun_56/pc_ws/install/autobot/share/autobot/config/amr_1_amcl_config.yaml
+/home/tarun_56/pc_ws/install/autobot/share/autobot/config/amr_2_amcl_config.yaml
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/ball_tracker_params_robot.yaml
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/ball_tracker_params_sim.yaml
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/drive_bot.rviz
@@ -7,6 +9,7 @@
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/gaz_ros2_ctl_use_sim.yaml
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/gazebo_params.yaml
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/joystick.yaml
+/home/tarun_56/pc_ws/install/autobot/share/autobot/config/localization.rviz
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/main.rviz
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/map.rviz
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/map_filter_params.yaml
@@ -16,6 +19,9 @@
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/my_controllers.yaml
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/nav2_params.yaml
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/nav2_params_amr_1.yaml
+/home/tarun_56/pc_ws/install/autobot/share/autobot/config/nav2_params_amr_2.yaml
+/home/tarun_56/pc_ws/install/autobot/share/autobot/config/new_warehouse_save.pgm
+/home/tarun_56/pc_ws/install/autobot/share/autobot/config/new_warehouse_save.yaml
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/twist_mux.yaml
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/view_bot.rviz
 /home/tarun_56/pc_ws/install/autobot/share/autobot/config/warehouse.rviz
@@ -39,7 +45,10 @@
 /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/localization_launch.py
 /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/main_two_robots.launch.xml
 /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/map_filters_launch.py
+/home/tarun_56/pc_ws/install/autobot/share/autobot/launch/map_server_launch.py
 /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/navigation_launch.py
+/home/tarun_56/pc_ws/install/autobot/share/autobot/launch/navigation_launch_amr_1.py
+/home/tarun_56/pc_ws/install/autobot/share/autobot/launch/online_async_amr_1.launch.py
 /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/online_async_launch.py
 /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/rplidar.launch.py
 /home/tarun_56/pc_ws/install/autobot/share/autobot/launch/rsp.launch.py
